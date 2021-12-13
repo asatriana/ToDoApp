@@ -25,6 +25,7 @@ $(document).ready(function(){
           url: '/todo/' + item,
           success: function(data){
             location.reload();
+            //console.log(item);
           }
         });
     });
